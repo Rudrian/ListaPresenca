@@ -20,9 +20,6 @@ public class ListaPresenca {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
-	@NotNull
-	@NotBlank
 	private Long id;
 	
 	@NotNull
